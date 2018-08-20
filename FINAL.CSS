@@ -1,0 +1,198 @@
+/******************* muda a referência *******************/
+body {
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    color: #4A4A4A;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat", sans-serif;
+    margin-top: 0;
+  }
+  
+  p {
+    margin: 0;
+  }
+  
+  img {
+    max-width: 100%;
+  }
+  
+  figure {
+    margin: 0;
+  }
+  
+  /******************* Grid *******************/
+  
+  /*******************foto de capa*******************/
+  header {
+    background: url("https://iq.intel.com/wp-content/uploads/sites/18/2016/06/Betty----Jean----Jennings-Bartik-left-Marlyn-Wescoff-Meltzer-center-and-Ruth-Lichterman-Teitelbaum-right.-e1467304524584.jpg");
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 200px;
+    position: relative;
+  }
+  
+  @media screen and (min-width: 300px) {
+    header {
+      background-position: 100% 20%;
+    }
+  }
+  
+  @media screen and (min-width: 768px) {
+    header {
+      height: 400px;
+      background-size: 100% auto;
+      background-position: 0% 20%;
+    }
+  }
+  
+  /*altera o box sob a foto de capa*/
+  
+  .title-content h1 {
+    color: #ffffff;
+    font-weight: 700;
+    position: center;
+    text-transform: uppercase;
+    padding: 70px 0 0 15px;
+    margin-bottom: 100px;
+    font-size: 2rem;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .title-content h1 {
+      font-size: 2.5rem;
+      padding: 70px 0 0 30px;
+    }
+  }
+  
+  @media screen and (min-width: 991px) {
+    .title-content h1 {
+      font-size: 3.75rem;
+    }
+  }
+  
+  .title-content h2 {
+    color: #ffffff;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    margin: 0;
+    padding: 0 0 70px 15px;
+    font-size: 1rem;
+  }
+  
+  @media screen and (min-width: 500px) {
+    .title-content h2 {
+      font-size: 1.5rem;
+      padding: 0 0 200px 30px;
+    }
+  }
+  
+  @media screen and (min-width: 500px) {
+    .title-content h2 {
+      font-size: 2rem;
+    }
+  }
+  
+  @media screen and (min-width: 500px) {
+    .title-content {
+      width: 50%;
+    }
+  }
+  
+  /******************* altera conteudo do tributo*******************/
+  #tribute-info {
+    background: #2E56A1;
+    padding: 50px 15px;
+    display: flex;
+    align-items: justify;
+  }
+  
+  #tribute-info p {
+    color: #fff;
+    font-size: 0.875rem;
+    line-height: 2rem;
+    font-weight: 500;
+  }
+  
+  @media screen and (min-width: 768px) {
+    #tribute-info p {
+      font-size: 1.3rem;
+      line-height: 2.375rem;
+    }
+  }
+  
+  @media screen and (min-width: 768px) {
+    #tribute-info {
+      padding: 80px 30px;
+    }
+  }
+  
+  #img-div {
+    padding: 50px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #img-div img {
+    display: block;
+  }
+  
+  @media screen and (min-width: 768px) {
+    #img-div img {
+      width: 350px;
+    }
+  }
+  
+  #img-caption {
+    text-align: center;
+    margin-top: 25px;
+    font-size: 1rem;
+    line-height: 1.375rem;
+  }
+  
+  @media screen and (min-width: 768px) {
+    #img-caption {
+      width: 350px;
+    }
+  }
+  
+  
+  
+  /******************* Timeline *******************/
+  #timeline-1 {
+    background: #f6f6f6;
+    padding: 50px 15px;
+    display: center;
+    justify-content: center;
+    weight: 200px;
+  }
+  
+  
+  @media screen and (min-width: 768px) {
+    #timeline-1 {
+      padding: 50px 30px;
+    }
+  }
+  
+  /******************* Timeline *******************/
+  /*rodapé*/
+  
+  footer {
+    background: #383838;
+    text-align: center;
+    padding: 40px 0;
+  }
+  
+  footer a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
